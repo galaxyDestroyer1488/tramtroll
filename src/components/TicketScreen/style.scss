@@ -1,0 +1,194 @@
+$wite: #FEFFFE;
+$black: #2A2A2A;
+$transparent:#666666;
+$green: #4EA524;
+$border: #E2E2E2;
+
+.main_wrapper{
+    background-color: $wite;
+    padding: 0px 32px;
+    width: 600px;
+    .arrow{
+        display: flex;
+        position: absolute;
+        padding-top: 14px;
+        width: 50px;
+    }
+    .arhiv{
+        display: flex;
+        justify-content: center;
+        padding: 18px;
+        font-size: 29px;
+        font-weight: 550;
+        p{margin: 0px;}
+        
+    }
+    .toggle{
+        display: flex;
+        justify-content: space-between;
+        background-color: #EAEAEB;
+        border-radius: 36px;
+        height: 70px;
+        
+        p{
+            margin-top: 16px;
+            font-size: 25px;
+            font-weight: 550;
+        }
+
+        .kvitok{
+            margin: 3px;
+            padding: 0px 100px;
+            border-radius: 36px;
+            background-color: $wite;
+            color: $green;
+                        box-shadow: 
+                -1px 3px 3px rgba(0, 0, 0, 0.1), /* Ліва тінь */
+                1px 3px 3px rgba(0, 0, 0, 0.1),  /* Права тінь */
+                0px 2px 8px rgba(0, 0, 0, 0.1);  /* Нижня тінь */
+        }
+        .proizd{
+            margin: 3px;
+            padding: 0px 100px;
+        }
+    }
+    .wrapper{
+        border: 1px solid $border;
+        display:flex;
+        flex-direction: column;
+        margin: 30px 0px;
+        border-radius: 12px;
+        padding: 30px;
+                    box-shadow: 
+                -1px 3px 3px rgba(0, 0, 0, 0.1), /* Ліва тінь */
+                1px 3px 3px rgba(0, 0, 0, 0.1),  /* Права тінь */
+                0px 2px 8px rgba(0, 0, 0, 0.1);  /* Нижня тінь */
+        
+        .top_info{
+            display: flex;
+            
+        }
+        .dniproImg{
+            display: flex;
+            width: fit-content;
+            height: 116px;
+            border: 1px solid $border;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 
+                -1px 3px 3px rgba(0, 0, 0, 0.1), /* Ліва тінь */
+                1px 3px 3px rgba(0, 0, 0, 0.1),  /* Права тінь */
+                0px 2px 8px rgba(0, 0, 0, 0.1);  /* Нижня тінь */
+            
+            
+            
+        }
+        .serial{
+            padding-left: 30px;
+            font-size: 25px;
+            font-weight: 300;
+            align-self: center;
+
+            p:first-child{
+                margin-top: 0px;
+                }
+            p{
+                margin: 10px;
+            }
+            b{
+                font-weight: 600;
+            }
+        }
+        .grnImg{
+            margin-top: 20px;
+            display: flex;
+            
+            border-radius: 12px;
+            border: 1px solid $border;
+            overflow: hidden;
+            width: max-content;
+            align-self: center;
+                        box-shadow: 
+                -1px 3px 3px rgba(0, 0, 0, 0.1), /* Ліва тінь */
+                1px 3px 3px rgba(0, 0, 0, 0.1),  /* Права тінь */
+                0px 2px 8px rgba(0, 0, 0, 0.1);  /* Нижня тінь */
+        }
+        .vagon{
+            margin: 0;
+            align-self: center;
+            justify-content: center;
+            p{
+                display: flex;
+                font-size: 35px;
+                font-weight: 400;
+                justify-content: center;
+                
+            }
+            .transparent{
+                margin-top: -27px;
+                font-size: 27px;
+                font-weight: 300;
+                color: $transparent;
+            }
+        }
+        .date_time_ticket{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 15px;
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+
+                .transparent{
+                    margin-top: -7px;
+                    font-size: 28px;
+                    font-weight: 300;
+                    color: $transparent;
+                }
+                *:last-child{
+                    margin-top: -20px;
+                    font-size: 27px;
+                    font-weight: 450;
+                    color: $black;
+                }
+            }
+        }
+        .bottom_text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p{
+                margin-top: -10px;
+                color: $green;
+                font-size: 30px;
+                font-weight: 400;
+            }
+            b{
+                margin-top: -10px;
+                margin-bottom: 30px;
+                color: $green;
+                font-size: 40px;
+                font-weight: 600;
+            }
+        }
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -37px;
+        background-color: $green;
+        border-radius: 16px;
+
+        p{
+            color: $wite;
+            margin: 20px;
+            font-size: 27px;
+            font-weight: 600;
+        }
+    }
+}
