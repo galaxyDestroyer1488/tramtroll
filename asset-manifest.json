@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tramtroll/static/css/main.07a6302c.css",
+    "main.js": "/tramtroll/static/js/main.2b73747a.js",
+    "static/media/8grn.PNG": "/tramtroll/static/media/8grn.41445b7abe5a523f7251.PNG",
+    "static/media/dnipro.PNG": "/tramtroll/static/media/dnipro.85d240a0d88ad552fb64.PNG",
+    "index.html": "/tramtroll/index.html",
+    "main.07a6302c.css.map": "/tramtroll/static/css/main.07a6302c.css.map",
+    "main.2b73747a.js.map": "/tramtroll/static/js/main.2b73747a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a6302c.css",
+    "static/js/main.2b73747a.js"
+  ]
+}
