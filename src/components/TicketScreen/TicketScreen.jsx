@@ -43,9 +43,18 @@ function TicketScreen({vehicle, ticket, vagon}) {
             <p>Дніпро</p>
             <p>КП Дніпровський</p>
             <p>електротранспорт ДМР</p>
-            <p>
-              Серія <b>{serialNumber()}</b>
-            </p>
+            {ticket > 1 ? (
+              <p>
+                Серія{" "}
+                <b>
+                  {serialNumber()}, {serialNumber()}
+                </b>
+              </p>
+            ) : (
+              <p>
+                Серія <b>{serialNumber()}</b>
+              </p>
+            )}
           </div>
         </div>
         <div className="grnImg">
