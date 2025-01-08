@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tramtroll/static/css/main.b38f567f.css",
+    "main.css": "/tramtroll/static/css/main.279379ed.css",
     "main.js": "/tramtroll/static/js/main.6f68f0a2.js",
     "static/media/10grn.png": "/tramtroll/static/media/10grn.69d2ee751e4e42da91b1.png",
     "static/media/dnipro.PNG": "/tramtroll/static/media/dnipro.85d240a0d88ad552fb64.PNG",
     "index.html": "/tramtroll/index.html",
-    "main.b38f567f.css.map": "/tramtroll/static/css/main.b38f567f.css.map",
+    "main.279379ed.css.map": "/tramtroll/static/css/main.279379ed.css.map",
     "main.6f68f0a2.js.map": "/tramtroll/static/js/main.6f68f0a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b38f567f.css",
+    "static/css/main.279379ed.css",
     "static/js/main.6f68f0a2.js"
   ]
 }
