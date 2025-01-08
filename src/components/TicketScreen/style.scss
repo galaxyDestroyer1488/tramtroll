@@ -102,8 +102,6 @@ $border: #E2E2E2;
         .grnImg{
             margin-top: 20px;
             display: flex;
-            width: 269px;
-            height: 268px;
             border-radius: 12px;
             border: 1px solid $border;
             overflow: hidden;
@@ -113,6 +111,10 @@ $border: #E2E2E2;
                 -1px 3px 3px rgba(0, 0, 0, 0.1), /* Ліва тінь */
                 1px 3px 3px rgba(0, 0, 0, 0.1),  /* Права тінь */
                 0px 2px 8px rgba(0, 0, 0, 0.1);  /* Нижня тінь */
+                img{
+                    width: 269px;
+                    height: 268px;
+                }
         }
         .vagon{
             margin: 0;
