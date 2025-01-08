@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import './style.scss'
 import dniproImage from "../../images/dnipro.PNG";
-import grn from "../../images/8grn.PNG";
+import grn from "../../images/10grn.png";
 import arrow from "../../images/arrow-button (2).png"
 import { serialNumber } from '../../utils/serialNumber';
 import { day, time, timer } from '../../utils/date';
